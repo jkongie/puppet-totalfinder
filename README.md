@@ -33,28 +33,21 @@ git push origin master
 
 The rest of the README as follows can be used as a template for your module's README.
 
-# Template Puppet Module for Boxen
+# Total Finder Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Total Finder brings tabs to your native Finder and more!
 
-A great module has a working travis build
-
-[![Build Status](https://travis-ci.org/boxen/puppet-template.png?branch=master)](https://travis-ci.org/boxen/puppet-template)
+http://http://totalfinder.binaryage.com/
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include totalfinder
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
