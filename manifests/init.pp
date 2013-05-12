@@ -5,9 +5,10 @@
 # Examples
 #
 #  include totalfinder
+
 class totalfinder {
   package { 'TotalFinder':
-    provider => 'pkgdmg',
+    provider => 'appdmg',
     source   => 'http://downloads.binaryage.com/TotalFinder-1.4.9.dmg'
   }
 }
